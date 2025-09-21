@@ -20,149 +20,58 @@ $$\frac{d}{dx}[c \cdot f(x)] = c \cdot \frac{d}{dx}[f(x)]$$
 
 ---
 
-### Product and Quotient Rules
-1. **Product Rule**:
-   \[
-   \frac{d}{dx}[f(x) \cdot g(x)] = f'(x) \cdot g(x) + f(x) \cdot g'(x)
-   \]
-
-2. **Quotient Rule**:
-   \[
-   \frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{g(x)^2} \quad (g(x) \neq 0)
-   \]
-
----
-### 指数与对数函数
-1. **自然指数函数**：
-   \[
-   \frac{d}{dx}[e^x] = e^x
-   \]
-
-2. **一般指数函数**：
-   \[
-   \frac{d}{dx}[a^x] = a^x \ln(a) \quad (a > 0, a \neq 1)
-   \]
-
-3. **自然对数函数**：
-   \[
-   \frac{d}{dx}[\ln(x)] = \frac{1}{x} \quad (x > 0)
-   \]
-
-4. **一般对数函数**：
-   \[
-   \frac{d}{dx}[\log_a(x)] = \frac{1}{x \ln(a)} \quad (x > 0, a > 0, a \neq 1)
-   \]
+### Product and Quotient Rules  
+1. **Product Rule**: $$\frac{d}{dx}[f(x) \cdot g(x)] = f'(x) \cdot g(x) + f(x) \cdot g'(x)$$  
+2. **Quotient Rule**: $$\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{g(x)^2} \quad (g(x) \neq 0)$$  
 
 ---
 
-### Trigonometric Functions
-1. \[
-   \frac{d}{dx}[\sin(x)] = \cos(x)
-   \]
-
-2. \[
-   \frac{d}{dx}[\cos(x)] = -\sin(x)
-   \]
-
-3. \[
-   \frac{d}{dx}[\tan(x)] = \sec^2(x)
-   \]
-
-4. \[
-   \frac{d}{dx}[\cot(x)] = -\csc^2(x)
-   \]
-
-5. \[
-   \frac{d}{dx}[\sec(x)] = \sec(x) \tan(x)
-   \]
-
-6. \[
-   \frac{d}{dx}[\csc(x)] = -\csc(x) \cot(x)
-   \]
+### 指数与对数函数  
+1. **自然指数函数**: $$\frac{d}{dx}[e^x] = e^x$$  
+2. **一般指数函数**: $$\frac{d}{dx}[a^x] = a^x \ln(a) \quad (a > 0, a \neq 1)$$  
+3. **自然对数函数**: $$\frac{d}{dx}[\ln(x)] = \frac{1}{x} \quad (x > 0)$$  
+4. **一般对数函数**: $$\frac{d}{dx}[\log_a(x)] = \frac{1}{x \ln(a)} \quad (x > 0, a > 0, a \neq 1)$$  
 
 ---
 
-### Exponential and Logarithmic Functions
-1. \[
-   \frac{d}{dx}[e^x] = e^x
-   \]
-
-2. \[
-   \frac{d}{dx}[a^x] = a^x \ln(a) \quad (a > 0, a \neq 1)
-   \]
-
-3. \[
-   \frac{d}{dx}[\ln(x)] = \frac{1}{x} \quad (x > 0)
-   \]
-
-4. \[
-   \frac{d}{dx}[\log_a(x)] = \frac{1}{x \ln(a)} \quad (x > 0, a > 0, a \neq 1)
-   \]
+### Trigonometric Functions  
+1. $$\frac{d}{dx}[\sin(x)] = \cos(x)$$  
+2. $$\frac{d}{dx}[\cos(x)] = -\sin(x)$$  
+3. $$\frac{d}{dx}[\tan(x)] = \sec^2(x)$$  
+4. $$\frac{d}{dx}[\cot(x)] = -\csc^2(x)$$  
+5. $$\frac{d}{dx}[\sec(x)] = \sec(x) \tan(x)$$  
+6. $$\frac{d}{dx}[\csc(x)] = -\csc(x) \cot(x)$$  
 
 ---
 
-### Inverse Trigonometric Functions
-1. \[
-   \frac{d}{dx}[\arcsin(x)] = \frac{1}{\sqrt{1 - x^2}} \quad (|x| < 1)
-   \]
-
-2. \[
-   \frac{d}{dx}[\arccos(x)] = -\frac{1}{\sqrt{1 - x^2}} \quad (|x| < 1)
-   \]
-
-3. \[
-   \frac{d}{dx}[\arctan(x)] = \frac{1}{1 + x^2}
-   \]
-
-
+### Exponential and Logarithmic Functions  
+1. $$\frac{d}{dx}[e^x] = e^x$$  
+2. $$\frac{d}{dx}[a^x] = a^x \ln(a) \quad (a > 0, a \neq 1)$$  
+3. $$\frac{d}{dx}[\ln(x)] = \frac{1}{x} \quad (x > 0)$$  
+4. $$\frac{d}{dx}[\log_a(x)] = \frac{1}{x \ln(a)} \quad (x > 0, a > 0, a \neq 1)$$  
 
 ---
 
-### Hyperbolic Functions
-1. \[
-   \frac{d}{dx}[\sinh(x)] = \cosh(x)
-   \]
-
-2. \[
-   \frac{d}{dx}[\cosh(x)] = \sinh(x)
-   \]
-
-3. \[
-   \frac{d}{dx}[\tanh(x)] = \text{sech}^2(x)
-   \]
-
-4. \[
-   \frac{d}{dx}[\coth(x)] = -\text{csch}^2(x)
-   \]
-
-5. \[
-   \frac{d}{dx}[\text{sech}(x)] = -\text{sech}(x) \tanh(x)
-   \]
-
-6. \[
-   \frac{d}{dx}[\text{csch}(x)] = -\text{csch}(x) \coth(x)
-   \]
+### Inverse Trigonometric Functions  
+1. $$\frac{d}{dx}[\arcsin(x)] = \frac{1}{\sqrt{1 - x^2}} \quad (|x| < 1)$$  
+2. $$\frac{d}{dx}[\arccos(x)] = -\frac{1}{\sqrt{1 - x^2}} \quad (|x| < 1)$$  
+3. $$\frac{d}{dx}[\arctan(x)] = \frac{1}{1 + x^2}$$  
 
 ---
 
-### Product and Quotient Rules
-1. **Product Rule**:
-   \[
-   \frac{d}{dx}[f(x) \cdot g(x)] = f'(x) \cdot g(x) + f(x) \cdot g'(x)
-   \]
-
-2. **Quotient Rule**:
-   \[
-   \frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{g(x)^2} \quad (g(x) \neq 0)
-   \]
+### Hyperbolic Functions  
+1. $$\frac{d}{dx}[\sinh(x)] = \cosh(x)$$  
+2. $$\frac{d}{dx}[\cosh(x)] = \sinh(x)$$  
+3. $$\frac{d}{dx}[\tanh(x)] = \text{sech}^2(x)$$  
+4. $$\frac{d}{dx}[\coth(x)] = -\text{csch}^2(x)$$  
+5. $$\frac{d}{dx}[\text{sech}(x)] = -\text{sech}(x) \tanh(x)$$  
+6. $$\frac{d}{dx}[\text{csch}(x)] = -\text{csch}(x) \coth(x)$$  
 
 ---
 
-### Chain Rule
-1. **General Chain Rule**:
-   \[
-   \frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)
-   \]
+### Chain Rule  
+1. **General Chain Rule**: $$\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)$$  
+
 
 ##  1. Functions and Optimization
 ### 1.1 Review of concepts 
@@ -1159,6 +1068,7 @@ x_2
 
 ---
 <img src="p4.png" width="60%" height="60%" >
+
 
 
 
