@@ -5,9 +5,7 @@
 
 ### Basic Rules
 1. **Constant Rule**:
-   $$
-   \frac{d}{dx}[c] = 0
-   $$
+   $$\frac{d}{dx}[c] = 0$$
    (The derivative of a constant is always 0.)
 
 2. **Power Rule**:
@@ -1166,4 +1164,5 @@ x_2
 
 ---
 <img src="p4.png" width="60%" height="60%" >
+
 
