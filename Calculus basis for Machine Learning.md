@@ -1,4 +1,4 @@
-# Comp1433 Calculus Notes 
+# Calculus basis for Machine Learning
 [TOC]
 ## 常用导数公式与规则
 # Commonly Used Derivatives
@@ -8,20 +8,15 @@
    $$\frac{d}{dx}[c] = 0$$
    (The derivative of a constant is always 0.)
 
-2. **Power Rule**:
-   \[
-   \frac{d}{dx}[x^n] = n \cdot x^{n-1}
-   \]
+2. **Power Rule**:  
+$$\frac{d}{dx}[x^n] = n \cdot x^{n-1}$$
 
-3. **Sum/Difference Rule**:
-   \[
-   \frac{d}{dx}[f(x) \pm g(x)] = f'(x) \pm g'(x)
-   \]
+3. **Sum/Difference Rule**:  
+$$\frac{d}{dx}[f(x) \pm g(x)] = \frac{d}{dx}[f(x)] \pm \frac{d}{dx}[g(x)]$$
 
-4. **Constant Multiple Rule**:
-   \[
-   \frac{d}{dx}[c \cdot f(x)] = c \cdot f'(x)
-   \]
+4. **Constant Multiple Rule**:  
+$$\frac{d}{dx}[c \cdot f(x)] = c \cdot \frac{d}{dx}[f(x)]$$
+
 
 ---
 
@@ -1164,5 +1159,6 @@ x_2
 
 ---
 <img src="p4.png" width="60%" height="60%" >
+
 
 
